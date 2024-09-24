@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ddd;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* text-align: left; */
+    justify-content: space-between;
+    background-color: #cfcfcf; /* Couleur de fond */
+    padding: 10px 8%;
+    border-radius: 10px;
+    border-bottom: #3c3b3b;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.logo img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    
+}
+.navbar i{
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.menu{
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.contact-btn {
+    background-color: #018db7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none; /* Masquer l'icône du menu pour les écrans larges */
+}
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        display: none; /* Masquer les liens pour les écrans petits */
+    }
+    .menu-icon {
+        display: block; /* Afficher l'icône du menu pour les écrans petits */
+        color: white;
+        font-size: 24px;
+    }
+}
+
+.hero-section {
+    display: flex;
+    /* justify-content:end; */
+    /* align-items: b; */
+    height: 50vh;
+    /* text-align: left; */
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top:200px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Blue text color */
+}
+
+p {
+    display:block;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-align: start;
+    margin-right: 10px;
+    position: relative;
+    align-items: start;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #00aaff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0088cc;
+}
+.propos h1{
+    color: black;
+}
+.propos p{
+    color:black;
+}
